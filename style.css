@@ -1,0 +1,63 @@
+body {
+  background-color: #f9f9f9; /* Light gray background */
+  color: #000080; /* Dark blue text */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+}
+/* Add this to your existing CSS */
+
+.hidden {
+  display: none;
+}
+
+.container {
+  /* max-width: 400px; */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /* background-color: #f9f9f9; */
+  background-color: #cce5ff; /* Pale blue for the container */
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000080; /* Dark blue heading */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #000080;
+  cursor: pointer;
+}
+
+select::after {
+  content: "\f078"; /* FontAwesome chevron-down icon */
+  font-family: FontAwesome;
+  font-size: 0.8em;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+p {
+  /* font-size: 1.2em; */
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+}

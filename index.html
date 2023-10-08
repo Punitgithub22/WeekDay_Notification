@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Message</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Your WeekDay Message</h1>
+
+        <label for="dayChoice">Select a day:</label>
+        <select id="dayChoice" onchange="displayMessage()">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+
+        <p id="message"></p>
+        <img id="mondayGif" src="./img/monday.gif" alt="GIF for Monday" class="hidden">
+        <img id="tuesdayGif" src="./img/tuesday.gif" alt="GIF for Tuesday" class="hidden">
+        <img id="wednesdayGif" src="./img/wednesday.gif" alt="GIF for Wednesday" class="hidden">
+        <img id="thursdayGif" src="./img/thursday.gif" alt="GIF for Thursday" class="hidden">
+        <img id="fridayGif" src="./img/friday.gif" alt="GIF for Friday" class="hidden">
+        <img id="saturdayGif" src="./img/saturday.gif" alt="GIF for Saturday" class="hidden">
+        <img id="sundayGif" src="./img/sunday.gif" alt="GIF for Sunday" class="hidden">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
